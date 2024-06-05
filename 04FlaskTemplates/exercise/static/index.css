@@ -1,0 +1,30 @@
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Padding for content inside the header */
+}
+
+header h1 {
+    margin: 0; /* Remove margin from the heading */
+    padding: 0 20px; /* Add padding to the heading */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display navigation items horizontally */
+    margin-right: 20px; /* Add margin between navigation items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

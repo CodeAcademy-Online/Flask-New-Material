@@ -1,0 +1,33 @@
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px; /* Padding around the header content */
+}
+
+h1 {
+    margin: 0; /* Remove default margin for the h1 */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0; /* Remove default padding for the list */
+    margin: 0; /* Remove default margin for the list */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.red {
+    background-color: red;
+}

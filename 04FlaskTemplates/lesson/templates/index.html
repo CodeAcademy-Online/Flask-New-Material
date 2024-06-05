@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <h2>{{ post.title }}</h2>
+        <p> {{ post.date }}, {{ post.author }}</p>
+        <hr>
+        <p> {{ post.content }} </p>
+        <h1 class="red">I'M RED</h1>
+    {% endfor %}
+{% endblock %}
+
